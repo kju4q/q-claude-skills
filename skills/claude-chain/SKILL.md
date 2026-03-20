@@ -1,3 +1,8 @@
+---
+name: claude-chain
+description: Use this skill when the user needs to think deeply, stress test an idea, make an important decision, challenge their own thinking, or wants to go beyond a surface level answer. Activate for analysis, critique, decision support, or deep reasoning tasks.
+---
+
 # Claude Chain
 
 ## Description

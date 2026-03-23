@@ -19,7 +19,7 @@ A thinking system built around how Claude actually processes information. Three 
 
 ## How to install — Claude Desktop and Claude.ai
 
-1. Click the green Code button on this page
+1. Click the blue Code button on this page
 2. Click Download ZIP
 3. Unzip the downloaded file
 4. Open the unzipped folder and go inside the skills folder

@@ -13,9 +13,9 @@ Anyone who uses Claude and wants to get more out of it. No coding experience nee
 ### Q Thinking Chain
 A thinking system built around how Claude actually processes information. Three techniques that change the quality of output completely.
 
-- Reasoning Layer — forces Claude past its safe average answer into its actual committed thinking
-- Adversarial Room — makes Claude destroy your idea so you find the fatal flaw before it costs you
-- Belief Updater — turns Claude into a live reasoning engine that tracks competing hypotheses as evidence comes in
+- Reasoning Layer - forces Claude past its safe average answer into its actual committed thinking
+- Adversarial Room - makes Claude destroy your idea so you find the fatal flaw before it costs you
+- Belief Updater - turns Claude into a live reasoning engine that tracks competing hypotheses as evidence comes in
 
 ## How to install — Claude Desktop and Claude.ai
 

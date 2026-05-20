@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Reads prompt from stdin JSON, matches keywords, injects the right SKILL.md as context.
+# Also emits a systemMessage so the user sees which skill loaded in the Claude Code UI.
 
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 PROMPT=$(jq -r '.prompt // ""' 2>/dev/null)
@@ -24,17 +25,22 @@ match() {
 }
 
 SKILL_FILE=""
+SKILL_NAME=""
 
 if match "$LOWER" $CONTENT_KEYWORDS; then
   SKILL_FILE="$REPO/content/SKILL.md"
+  SKILL_NAME="content/SKILL.md"
 elif match "$LOWER" $BUSINESS_KEYWORDS; then
   SKILL_FILE="$REPO/business/SKILL.md"
+  SKILL_NAME="business/SKILL.md"
 elif match "$LOWER" $PRODUCT_KEYWORDS; then
   SKILL_FILE="$REPO/products/SKILL.md"
+  SKILL_NAME="products/SKILL.md"
 fi
 
 if [ -n "$SKILL_FILE" ] && [ -f "$SKILL_FILE" ]; then
   SKILL_CONTENT=$(cat "$SKILL_FILE")
-  jq -n --arg content "$SKILL_CONTENT" --arg file "$SKILL_FILE" \
-    '{hookSpecificOutput: {hookEventName: "UserPromptSubmit", additionalContext: ("Loaded skill context from \($file):\n\n" + $content)}}'
+  # systemMessage shows in the Claude Code UI. additionalContext injects into the model's prompt.
+  # Note: $label is a reserved keyword in jq, so we pass --arg skillname instead.
+  jq -n --arg content "$SKILL_CONTENT" --arg file "$SKILL_FILE" --arg skillname "$SKILL_NAME" '{hookSpecificOutput: {hookEventName: "UserPromptSubmit", additionalContext: ("Loaded skill context from \($file):\n\n" + $content)}, systemMessage: ("Loaded skill context from \($skillname)")}'
 fi

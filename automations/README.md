@@ -109,26 +109,41 @@ status: [drafted | ready-to-record]
 
 ### what it does
 
-a bash script that hooks into claude code's UserPromptSubmit event, reads what you're typing, checks for keywords, auto-loads the relevant SKILL.md file as additional context. ask about scripts or hooks, content SKILL.md loads with all your content rules. ask about offers, business SKILL.md loads instead.
+a bash script that hooks into claude code's UserPromptSubmit event, reads what you're typing, checks for keywords, auto-loads the relevant SKILL.md file as additional context, and shows you which skill loaded. ask about scripts or hooks, content SKILL.md loads with all your content rules. ask about offers, business SKILL.md loads instead.
 
-you don't switch modes, the router does it from your keywords.
+you don't switch modes, the router does it from your keywords. when it fires, you see a line like "Loaded skill context from content/SKILL.md" so you know which rules are active.
 
 ### setup
 
 1. download `skill-router.sh` from this folder
 2. drop it at `.claude/skill-router.sh` in your repo
 3. make it executable: `chmod +x .claude/skill-router.sh`
-4. register the hook in `.claude/hooks.json`:
+4. register the hook in `.claude/settings.json` (this is the actual Claude Code config file):
 
 ```json
 {
-  "UserPromptSubmit": {
-    "command": ".claude/skill-router.sh"
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/skill-router.sh\"",
+            "statusMessage": "Loading skill context..."
+          }
+        ]
+      }
+    ]
   }
 }
 ```
 
+If `settings.json` already exists, merge the `hooks` block into the existing JSON. If it doesn't exist, paste the snippet as the whole file.
+
 5. create the SKILL.md files in each domain folder (content/SKILL.md, business/SKILL.md, products/SKILL.md) with the rules for that domain
+6. install `jq` if you don't have it (the router uses it to parse stdin and emit hook output):
+   - macOS: `brew install jq`
+   - Linux: `apt install jq` or `yum install jq`
 
 ### customization
 

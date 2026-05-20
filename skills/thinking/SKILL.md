@@ -23,3 +23,12 @@ Finds what is missing from your thinking entirely. Not a critique of what you sa
 
 ### Complexity Mapper
 Maps all the moving parts of a problem, how they connect, and which single lever would create the most change. Use when everything feels urgent and connected and you do not know where to start.
+
+### The Unsaid Layer
+Surfaces what each person walked away from a conversation believing, and where those beliefs quietly contradict each other. Use after an important conversation to find the gap that never got named and turn it into the script for the next one.
+
+### The Constraint That Becomes the Strategy
+Turns your biggest limitation into a competitive position by finding the moves your constraint forces that a well-resourced competitor could not copy. Use when you are frustrated by a limitation and want it to become a moat.
+
+### The Model Underneath the Breakdown
+Finds the wrong mental model under a recurring conflict or a process that keeps failing. Use when something keeps breaking the same way and you keep solving it the same way, so you can update the model instead of managing the mood.

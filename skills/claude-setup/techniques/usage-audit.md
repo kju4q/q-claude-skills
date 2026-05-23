@@ -29,4 +29,4 @@ The output is only valuable if the user acts on it. Pick the one observation tha
 - The first run is usually the sharpest. Do not flinch from it
 
 ## Trigger prompt
-"Audit how i've been using you. Where am i using you well? Where am i leaning on you for things i should figure out myself? What pattern in how i ask for things do i probably not see? What's the unhealthy pattern in our relationship? Cite real examples from our conversations. Be uncomfortable if you need to."
+"Audit how i've been using you. Where am i using you well? Where am i leaning on you for things i should figure out myself? What pattern in how i ask for things do i probably not see? What's the unhealthy pattern in our relationship? Cite real examples. Be uncomfortable if you need to."

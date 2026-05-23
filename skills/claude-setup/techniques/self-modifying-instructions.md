@@ -12,7 +12,7 @@ Adds a line to a Claude project's instructions that makes Claude propose edits t
 
 This is a one-time addition to project instructions. Add this line:
 
-"At the end of every substantive session, before signing off, propose 1 to 3 specific edits to my project instructions, memory files, or skills based on what you observed about me this session. Format them as diffs i can approve or reject. Include reasoning for each."
+"At the end of every substantive session, propose 1 to 3 specific edits to my project instructions, memory files, or skills based on what you observed about me this session. Format them as diffs i can approve or reject, with reasoning."
 
 After that, every substantive session ends with Claude proposing edits. The user approves or rejects each one. Over time the setup becomes genuinely tuned to how the user actually works.
 
@@ -23,4 +23,4 @@ After that, every substantive session ends with Claude proposing edits. The user
 - The best proposals are ones the user would not have thought to make themselves
 
 ## Trigger prompt
-"At the end of every substantive session, before signing off, propose 1 to 3 specific edits to my project instructions, memory files, or skills based on what you observed about me this session. Format them as diffs i can approve or reject. Include reasoning for each."
+"At the end of every substantive session, propose 1 to 3 specific edits to my project instructions, memory files, or skills based on what you observed about me this session. Format them as diffs i can approve or reject, with reasoning."

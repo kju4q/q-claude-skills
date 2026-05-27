@@ -60,3 +60,14 @@ npx skills add https://github.com/kju4q/q-claude-skills.git
 ## More coming
 
 Every video I make adds a new skill to this repo. Follow along on [Instagram](https://www.instagram.com/qendresahhoti) and [TikTok](https://www.tiktok.com/@qbuilder).
+
+## skill-stats
+
+`scripts/skill-stats.py` scans every folder under `skills/`, reads the YAML frontmatter from each `SKILL.md`, and writes a markdown report to `./skill-stats-report.md` with each skill's name, description, last-modified date, and a flag for any missing required fields (`name`, `description`). Python stdlib only — no install step.
+
+```sh
+python3 scripts/skill-stats.py            # writes ./skill-stats-report.md
+python3 scripts/test_skill_stats.py       # runs the test suite against the report
+```
+
+Optional flags: `--skills-dir <path>` to scan a different tree, `--output <path>` to write elsewhere.

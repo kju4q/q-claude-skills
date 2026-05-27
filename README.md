@@ -38,6 +38,12 @@ For when you are ready to execute and need a system not just a plan.
 - Agent Setup — designs a full agent workflow covering system prompt, tools, and how to know if it is working
 - Research Workflow — turns a research question into a structured workflow with a clear stopping condition
 
+## Commands
+
+Templates for slash commands that work across multiple agent frameworks.
+
+- [`/goal`](commands/goal-template.md) — three-part prompt template for agentic loops (Claude Code, Codex, Hermes). Includes the exact /goal I ran in this repo to build `scripts/skill-stats.py`, plus shape templates for refactor, research, docs, and content.
+
 ## How to install — Claude Desktop and Claude.ai
 
 1. Click the blue Code button on this page

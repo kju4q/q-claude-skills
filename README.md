@@ -43,6 +43,7 @@ For when you are ready to execute and need a system not just a plan.
 Templates for slash commands that work across multiple agent frameworks.
 
 - [`/goal`](commands/goal-template.md) — three-part prompt template for agentic loops (Claude Code, Codex, Hermes). Includes the exact /goal I ran in this repo to build `scripts/skill-stats.py`, plus shape templates for refactor, research, docs, and content.
+- [Workflow starter pack](commands/workflow-starter-pack.md) — three dynamic workflow prompts for Opus 4.8 in Claude Code: API migration audit, security audit (OWASP Top 10), and README readiness (the workflow from the Opus 4.8 video). Each one ready to paste and save as a slash command.
 
 ## How to install — Claude Desktop and Claude.ai
 

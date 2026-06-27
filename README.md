@@ -4,6 +4,10 @@ A growing collection of Claude skills built around one idea: stop prompting AI a
 
 Every skill in this repo comes from a real workflow I use or teach. Each one is designed to be installed once and used forever. As I make new content I add new skills here.
 
+## New here? Start with three things
+
+If I were starting over with Claude today, [`/start`](start) is the three things I'd build first: a Claude that rewrites its own rules, one prompt that splits into a fleet of agents, and an agent that runs on your machine and texts you. Each links to a working starter.
+
 ## Who this is for
 
 Anyone who uses Claude and wants to get more out of it. No coding experience needed.
@@ -44,6 +48,10 @@ Templates for slash commands that work across multiple agent frameworks.
 
 - [`/goal`](commands/goal-template.md) — three-part prompt template for agentic loops (Claude Code, Codex, Hermes). Includes the exact /goal I ran in this repo to build `scripts/skill-stats.py`, plus shape templates for refactor, research, docs, and content.
 - [Workflow starter pack](commands/workflow-starter-pack.md) — three dynamic workflow prompts for Opus 4.8 in Claude Code: API migration audit, security audit (OWASP Top 10), and README readiness (the workflow from the Opus 4.8 video). Each one ready to paste and save as a slash command.
+
+## Self-improving
+
+- [`/self-improving`](self-improving) — a Claude that reads its own results and rewrites its own rules file. One rules file, one signal, a loop that turns evidence into edits. Logs every change and everything is in git, so any edit is one `git revert` away. The starter includes the self-review skill and an example rules file.
 
 ## How to install — Claude Desktop and Claude.ai
 

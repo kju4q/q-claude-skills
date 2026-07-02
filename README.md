@@ -41,6 +41,7 @@ For when you are ready to execute and need a system not just a plan.
 - Weekly Planning — builds a complete weekly plan from your actual context, not generic time blocks
 - Agent Setup — designs a full agent workflow covering system prompt, tools, and how to know if it is working
 - Research Workflow — turns a research question into a structured workflow with a clear stopping condition
+- [agent-or-workflow](building/agent-or-workflow.md) — the sticky note test for deciding if you need an AI agent or just a workflow, with prompts for building both
 
 ## Commands
 

@@ -49,6 +49,11 @@ that actually mattered?
 
 That last question is the one people skip, and it is the one that tells you what to do on Monday.
 
+**Gotchas**
+- Do not let message two offer balance. If a sentence starts with "that said" or "to be fair", the role did not take and you should run it again.
+- Do not stop after message two because the critique felt satisfying. The critique is not the output, the rebuild is.
+- Do not accept the rebuilt version without showing it to someone who never saw the original.
+
 ---
 
 ## 2. The Persona Chain
@@ -78,6 +83,11 @@ would they skip, and how long would it take them?
 
 Message three is the quiet one, because the gap between what people imagine and what you actually said is where refunds and bad reviews come from.
 
+**Gotchas**
+- Do not let the investor be polite. If it reads like feedback rather than a judgement, the role did not take.
+- Do not skim message three. It is the one that catches what you are accidentally promising.
+- Do not run this on something unfinished. It reads a draft as if it were final, and you will end up fixing the wrong things.
+
 ---
 
 ## 3. The Compression Chain
@@ -105,6 +115,11 @@ Now three words.
 ```
 
 Watch what falls out between five sentences and three words, because whatever survives is what you are actually building and whatever disappears was decoration you were defending.
+
+**Gotchas**
+- Do not paste a version you already tightened. The rambling one is the input, and a polished paste gives you a polished answer that teaches you nothing.
+- Do not argue with the three words. If they are wrong, that is the finding, not a mistake to correct.
+- Do not use the three words as a tagline. They are a diagnosis, not copy.
 
 ---
 
@@ -136,6 +151,11 @@ just assume it is simply not true.
 
 The rewrite in message four is usually a better plan than the one you started with, whether or not the assumption turns out to be wrong.
 
+**Gotchas**
+- Do not accept a list of assumptions you already knew about. If nothing on it surprises you, say so and ask again.
+- Do not let it name more than one as most likely wrong. Picking a single one is the work.
+- Do not adopt the rewrite as your new plan until you have actually checked whether that assumption is false.
+
 ---
 
 ## 5. The Time Machine
@@ -163,6 +183,11 @@ moment. Be specific about the mistake.
 ```
 
 Adjust the years to sit roughly seven back, four forward, and far enough out that nobody alive is defending it.
+
+**Gotchas**
+- Do not treat any of these as predictions. They are perspective shifts, and reading them as forecasts is how people talk themselves into bad timing.
+- Do not let all three answers agree. If every era says the same thing, the roles did not take and you are reading one voice three times.
+- The 2050 answer is the one that matters. The first two are warm up.
 
 ---
 

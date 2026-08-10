@@ -20,6 +20,7 @@ For when you need to understand a problem before you try to solve it.
 - Belief Updater — maintains three competing hypotheses and updates them as new evidence comes in
 - Blind Spot Finder — finds what is missing from your thinking entirely, not a critique of what you said but a map of what you did not say
 - Complexity Mapper — maps all the moving parts of a problem and finds the single lever that creates the most change
+- [The Five Chains](thinking/the-five-chains.md) — five four-message sequences for getting Claude past its first answer, every message written out ready to paste
 
 ### Decision Making
 For when you need to choose a path and you are too close to see it clearly.

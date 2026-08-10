@@ -1,7 +1,5 @@
 # The Five Chains
 
-You commented CHAIN, so here are all five written out, every message, ready to paste.
-
 Each chain is four messages and the part you need is never in the first, because a first answer is the most likely helpful response averaged across everyone who ever asked something similar, which makes it agreeable by design.
 
 **The one rule:** run all four messages in the same chat, one after another, and never start a new conversation between steps. Each message has to react to the answer before it, and that is the whole reason the fourth answer comes out different from the first. Split them across separate chats and you have five ordinary questions.

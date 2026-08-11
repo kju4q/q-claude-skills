@@ -4,7 +4,9 @@ Three checks for the three holes that show up in almost everything built with AI
 
 None of this is because AI is careless. You described a feature and it built the feature, and the part that keeps strangers out was never in the description, which is why the same three holes turn up over and over.
 
-Point Claude Code, Cursor, or whatever you build in at your own project and run these one at a time. Read the answers properly rather than skimming for a green tick.
+**This assumes your code is open in Claude Code or Cursor,** so that whatever you are running the prompts in can actually read your project files. If you built on Lovable, Bolt, or Replit and have never opened the code, you can still do the manual check in each section, since those need nothing but your live site and a browser.
+
+Run the prompts one at a time and read the answers properly rather than skimming for a green tick.
 
 ---
 

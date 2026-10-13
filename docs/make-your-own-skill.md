@@ -1,6 +1,6 @@
 # Make your own Claude Code skill
 
-A skill is a reusable ability you teach Claude Code once and invoke with one command. I built one called slides, I type /slides in any repo and it turns that project into a presentation. Here's how to build yours.
+A skill is a reusable ability you teach Claude Code once and invoke with one command. I built one called slides, I type /slides in any repo and it turns that project into a presentation. That one lives in its own repo at https://github.com/kju4q/slides if you want to see a finished skill in the wild. Here's how to build yours.
 
 ## What a skill actually is
 
@@ -33,7 +33,7 @@ The skills in this repo also keep extra reference files in a techniques/ folder 
 
 Run it on a real case. If the output misses, don't rewrite your request, rewrite the SKILL.md, that's the difference between prompting and building. Every fix makes the skill permanently better.
 
-## Steal a head start
+## Start from a working example
 
 Every skill in this repo is a working example. Open any folder under skills/, read its SKILL.md, copy the shape, change the job.
 

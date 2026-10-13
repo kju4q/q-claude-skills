@@ -8,6 +8,8 @@ Every skill in this repo comes from a real workflow I use or teach. Each one is 
 
 If I were starting over with Claude today, [`/start`](start) is the three things I'd build first: a Claude that rewrites its own rules, one prompt that splits into a fleet of agents, and an agent that runs on your machine and texts you. Each links to a working starter.
 
+Want to build your own? [docs/make-your-own-skill.md](docs/make-your-own-skill.md) walks you through it.
+
 ## Who this is for
 
 Anyone who uses Claude and wants to get more out of it. No coding experience needed.

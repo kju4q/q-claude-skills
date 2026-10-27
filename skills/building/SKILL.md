@@ -1,5 +1,5 @@
 ---
-name: q-building
+name: building
 description: Use this skill when the user is setting up a workflow, an agent, a research process, or a plan they want to actually run. Activate when the user wants structure around how work gets done rather than help with a single one-off task, or when a repeating process keeps producing inconsistent results.
 ---
 

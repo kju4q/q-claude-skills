@@ -1,5 +1,5 @@
 ---
-name: q-decision-making
+name: decision-making
 description: Use this skill when the user needs to choose between options, evaluate a path forward, or make a high stakes decision. Activate when the user feels too close to a situation to see it clearly or when multiple competing options need to be evaluated honestly.
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: q-thinking
+name: thinking
 description: Use this skill when the user needs to understand a problem before solving it. Activate for complex situations where the answer is not clear, where assumptions need surfacing, or where the user feels stuck or overwhelmed. This skill helps map what is actually happening before any action is taken.
 ---
 

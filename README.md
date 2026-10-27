@@ -71,7 +71,7 @@ Templates for slash commands that work across multiple agent frameworks.
 4. Open the unzipped folder and go inside the skills folder
 5. Find the folder for the skill you want to install
 6. Right-click it and compress it into a ZIP file
-7. Open Claude Desktop or claude.ai
+7. Open claude.ai
 8. Go to Customize, then Skills
 9. Click the plus button, then Create skill
 10. Select Upload a skill

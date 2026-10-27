@@ -1,5 +1,5 @@
 ---
-name: q-claude-setup
+name: claude-setup
 description: Use this skill when the user wants to configure Claude to know them deeply and improve itself over time. Activate when setting up projects, context files, or self-improving instructions, or when the user wants Claude to compound across sessions instead of starting from zero each time.
 ---
 

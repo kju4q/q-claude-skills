@@ -10,6 +10,8 @@ If I were starting over with Claude today, [`/start`](start) is the three things
 
 Want to build your own? [docs/make-your-own-skill.md](docs/make-your-own-skill.md) walks you through it.
 
+Want it to work in Codex, Cursor and Copilot too? [docs/write-a-skill.md](docs/write-a-skill.md) covers the open format and where each agent looks.
+
 ## Who this is for
 
 Anyone who uses Claude and wants to get more out of it. No coding experience needed.
@@ -47,6 +49,8 @@ For when you are ready to execute and need a system not just a plan.
 - [agent-or-workflow](building/agent-or-workflow.md) — the sticky note test for deciding if you need an AI agent or just a workflow, with prompts for building both
 - [check-your-app](building/check-your-app.md) — three prompts for the three security holes that show up in almost everything built with AI, with the manual checks and what each fix actually is
 - [claude-watermark](building/claude-watermark.md) — what Claude's invisible text watermark actually is, what it can and cannot prove, and three things to do about it including disclosure lines you can adapt
+- [audit-package](skills/audit-package): before any install or clone, the agent inspects the package, reports five checks in one table, gives a verdict, and waits for you
+- [write-a-skill](docs/write-a-skill.md): write a skill once and run it in Claude Code, Codex, Cursor and Copilot, with the install path for each
 
 ## Commands
 

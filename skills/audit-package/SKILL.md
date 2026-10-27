@@ -110,18 +110,19 @@ Then stop. Don't run anything else.
 
 ## Verdict rules
 
-**don't** if any of these is true:
+**don't** is reserved for these three:
 
-- an install-time script touches the network or the environment
-- a version was published less than 7 days ago from an account that hasn't published this package before
-- the code reads secrets with no clear reason
+- an install-time script contacts any host other than the package's own official registry
+- an install-time script reads an env name that contains KEY, TOKEN, SECRET, PASSWORD, AWS or SSH
+- a version was published less than 7 days ago from an account that didn't publish the previous versions
 
 **install with `--ignore-scripts`** if:
 
+- an install script reads env and downloads only from the package's own official registry host, and that behavior is documented in its README or official docs, or
 - install scripts exist but look benign, or
 - publish timing is odd but everything else is clean
 
-With this verdict, tell the human to read the script before they enable it.
+With this verdict, tell the human to read the script before they enable it. If the install behavior isn't documented anywhere, say so in the finding.
 
 **install** if every check is clean.
 

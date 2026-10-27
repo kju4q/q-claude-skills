@@ -23,7 +23,7 @@ The skills in this repo also keep extra reference files in a techniques/ folder 
    ---
    ```
 
-   The name is what you invoke, and it doesn't have to match the folder. In this repo the folder skills/thinking/ holds a skill named q-thinking. The description is how Claude decides when to use it, so say when, not just what.
+   The name is what you invoke, and it must match the folder name. That's the rule in [the spec](https://agentskills.io/specification), and Cursor and claude.ai uploads enforce it. In this repo the skill named q-thinking lives in skills/q-thinking/. The description is how Claude decides when to use it, so say when, not just what.
 
 4. Below the header, write the instructions: what to do step by step, what the output should look like, what to never do. Be specific, this file is the skill.
 

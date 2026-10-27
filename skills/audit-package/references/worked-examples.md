@@ -54,14 +54,16 @@ The report:
 | --- | --- | --- |
 | Maintainer and age | One maintainer account, esbuild. First published 2017-11-26, so about nine years old. Repo is github.com/evanw/esbuild. Versions are published by GitHub Actions through npm trusted publishing, not a personal account. | low |
 | Publish timing | 0.28.2 published 2026-08-08. The three before it were 2026-06-11, 2026-04-02 and 2026-04-02. All four published by the same GitHub Actions trusted publisher. Nothing in the last 7 days. | low |
-| Install-time execution | `"postinstall": "node install.js"`. install.js reads env (29, 141, 181), runs child processes (103, 121, 187), and has an HTTPS download from registry.npmjs.org (147, 149, 245, 248). | high |
+| Install-time execution | `"postinstall": "node install.js"`. install.js reads env (29, 141, 181): `ESBUILD_BINARY_PATH` and `npm_config_user_agent` by name, and it passes a copy of the whole environment to a child `npm install` (181, 187). It runs child processes (103, 121, 187). The only host in the code is registry.npmjs.org (147, 149, 245, 248), and the child `npm install` uses whatever registry npm is set to. The other URLs (111 to 113) are in comments. No env names containing KEY, TOKEN, SECRET, PASSWORD, AWS or SSH. esbuild's [getting started docs](https://esbuild.github.io/getting-started/) document the install script and the registry download. | medium |
 | Env and network on load | lib/main.js: 1709, 1893, 2009, 2023, 2029, 2081, 2088, 2272, 2376, 2384, 2398. It reads its own settings from env and spawns its own binary. The rest are URLs in comments and error messages, and one regex that parses stack traces. | medium |
 | Dependency footprint | 26 optional platform packages, all @esbuild/*, all version 0.28.2. Only the one for your platform installs. All 26 published 2026-08-08 by the same GitHub Actions trusted publisher. None in the last 7 days. Publisher comparison against an existing lockfile: could not check, no lockfile. | low |
 
-Verdict: don't
+Verdict: install with `--ignore-scripts`
 
-The postinstall script touches both the network and the environment, and the rules say that's a don't, even for a project this established.
+The postinstall script reads env and downloads only from registry.npmjs.org, and esbuild's own docs describe that. Read install.js before you enable it.
 
 Waiting for you.
 
-This is the rule doing its job, not a claim that esbuild is malicious. The download in install.js is a fallback for when the platform package didn't install. Whether that's acceptable is the human's call, made after reading install.js. If they read it and still want it, they can say so and the agent installs it as told.
+Under the first version of the rules, this package got "don't", because any install script that touched the network or env did. The rule now separates a documented download from the package's own registry from a script that contacts some other host or reads secrets.
+
+esbuild's docs say that with `--ignore-scripts` its install script doesn't run, and the `esbuild` command in `node_modules/.bin` stays pointed at a JavaScript shim that runs the real binary.

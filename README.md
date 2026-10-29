@@ -25,6 +25,9 @@ For when you need to understand a problem before you try to solve it.
 - Blind Spot Finder — finds what is missing from your thinking entirely, not a critique of what you said but a map of what you did not say
 - Complexity Mapper — maps all the moving parts of a problem and finds the single lever that creates the most change
 - [The Five Chains](thinking/the-five-chains.md) — five four-message sequences for getting Claude past its first answer, every message written out ready to paste
+- [Five 2026 techniques](skills/thinking/techniques-2026.md): Fail, Taste, True, Flip and Bio, five three-prompt chains for finding the failure already underway, your unwritten rules, the assumption a plan rests on, the weaker side of an argument, and who your last month says you are
+
+The thinking skill works in Claude Code, Codex, and Cursor.
 
 ### Decision Making
 For when you need to choose a path and you are too close to see it clearly.

@@ -4,7 +4,9 @@ Five chains you can paste into claude.ai or ChatGPT. Each one is three prompts. 
 
 Replace anything in brackets with your own.
 
-## Fail
+## The Failure Script
+
+Command: `fail`
 
 Use it when a plan feels safe and you want to find the slow, reasonable path to failure that is already underway.
 
@@ -20,7 +22,9 @@ Which of these have I already made? Be specific.
 For the ones I've made, what's the cheapest way to reverse each?
 ```
 
-## Taste
+## The Taste Test
+
+Command: `taste`
 
 Use it when you know what good looks like to you but cannot say why, or your current work feels off and you cannot name the problem.
 
@@ -36,7 +40,9 @@ Here is what I'm building now: [paste or point at the folder]. Where am I breaki
 Which rule, if I followed it here, changes the most?
 ```
 
-## True
+## What Would Have To Be True
+
+Command: `true`
 
 Use it before you commit time or money, to find the one assumption the whole plan quietly depends on.
 
@@ -52,7 +58,9 @@ Which one can I check this week, and how, in one step?
 If the most unlikely one is false, what's the plan?
 ```
 
-## Flip
+## The Flip
+
+Command: `flip`
 
 Use it right after any answer that sounds convincing, to find out whether it is right or just well argued.
 
@@ -68,7 +76,9 @@ Which of the two arguments did you have to stretch more to make, and where?
 What evidence would settle it?
 ```
 
-## Bio
+## The Bio
+
+Command: `bio`
 
 Use it when how you describe yourself and how you spend your time may have drifted apart.
 

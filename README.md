@@ -26,6 +26,7 @@ For when you need to understand a problem before you try to solve it.
 - Complexity Mapper — maps all the moving parts of a problem and finds the single lever that creates the most change
 - [The Five Chains](thinking/the-five-chains.md) — five four-message sequences for getting Claude past its first answer, every message written out ready to paste
 - [Five 2026 techniques](skills/thinking/techniques-2026.md): Fail, Taste, True, Flip and Bio, five three-prompt chains for finding the failure already underway, your unwritten rules, the assumption a plan rests on, the weaker side of an argument, and who your last month says you are
+- [Trust questions](skills/thinking/trust-questions.md): the four questions I run before anything an agent built gets merged, plus the habit of reading its raw commands before its summary
 
 The thinking skill works in Claude Code, Codex, and Cursor.
 

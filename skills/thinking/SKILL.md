@@ -71,3 +71,7 @@ The user pastes their last thirty days: calendar, git log, notes. Use when how y
 1. "Here are my last thirty days: [calendar, git log, notes]. Write the one-line bio of the person who lived this month, from the evidence only, not from how I describe myself."
 2. "Write the same line for a year from now if nothing changes."
 3. "Which single week, changed, moves the second line the most?"
+
+### Trust Questions
+Command: `trust`
+Four questions and one habit to run before merging anything an agent built, in [trust-questions.md](trust-questions.md).
